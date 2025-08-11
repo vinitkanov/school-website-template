@@ -91,7 +91,7 @@ export default function TestimonialDemo() {
       <h2 className="text-4xl font-extrabold text-center text-gray-900 mb-12">
         Apa kata mereka?
       </h2>
-      <div className="flex flex-wrap gap-6 justify-center">
+      <div className="flex flex-wrap gap-6 justify-center p-4">
         {testimonials.map((testimonial, index) => (
           <TestimonialCard key={index} {...testimonial} />
         ))}
