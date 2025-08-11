@@ -42,13 +42,35 @@ The project follows the standard Next.js `app` directory structure:
 ```
 .
 ├── app/
-│   ├── layout.js       # Main layout of the application
-│   └── page.js         # The main page of the application
+│   ├── layout.js           # Main layout of the application
+│   ├── page.js             # The main page of the application
+│   ├── globals.css         # Global styles for the application
+│   └── favicon.ico         # Favicon for the application
 ├── components/
-│   ├── hero.js         # The hero section component
-│   └── navbar.js       # The navigation bar component
+│   ├── navbar.js           # The navigation bar component
+│   ├── hero.js             # The hero section component
+│   ├── partner.js          # The partner section component
+│   ├── review.js           # The testimonial/review section component
+│   ├── jenjang.js          # The school level/grade section component
+│   ├── about.js            # The about us section component
+│   ├── bottomCTA.js        # The call-to-action section at the bottom
+│   └── footer.js           # The footer component
 ├── public/
-│   ├── IpsumSCH.svg    # The school's logo
-│   └── hero-img.png    # The image for the hero section
+│   ├── IpsumSCH.svg        # The school's logo
+│   ├── hero-img.png        # The image for the hero section
+│   ├── about-us.png        # The image for the about us section
+│   ├── kurikulum-1.png     # Image for the curriculum section
+│   ├── partner-1.svg       # Partner logo
+│   ├── partner-2.svg       # Partner logo
+│   ├── partner-3.svg       # Partner logo
+│   ├── partner-4.svg       # Partner logo
+│   ├── partner-5.svg       # Partner logo
+│   └── review-profile-01.png # Profile image for a review
 └── ...
 ```
+
+## Screenshots
+
+Here's a screenshot of the landing page:
+
+![Ipsum School Landing Page](./public/screenshots/screenshot.png)
