@@ -27,14 +27,14 @@ const Partnerlist = [
 const Partner = ({ name, src }) => {
     return (
         <div className="partner">
-            <img src={src} alt={`${name} logo`} className="partner-logo" />
+            <img src={src} alt={`${name} logo`} className="partner-logo" draggable="false" />
         </div>
     )
 }
 const PartnerListComponent = () => {
     return (
         <div className="partner-list flex flex-wrap justify-center items-center gap-8 md:gap-16 border-t-1 border-[#C8C8C8] pt-16 pb-16">
-            <h2 className="text-3xl md:text-5xl font-bold w-full text-center mb-4">Partner Kami</h2>
+            <h2 className="text-3xl md:text-4xl font-bold w-full text-center mb-4">Partner Kami</h2>
             {Partnerlist.map((partner, idx) => (
                 <Partner key={idx} name={partner.name} src={partner.src} />
             ))}
